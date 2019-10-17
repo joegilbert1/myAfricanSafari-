@@ -9,11 +9,11 @@ variable "animals" {
       "buffalo",
       "lion",
       "leopard",
-      "zebra",
-      "giraffe",
-      "cheetah",
-      "meerkat",
-      "hyena"
+      #"zebra",
+      #"giraffe",
+      #"cheetah",
+      #"meerkat",
+      #"hyena"
     ]
 }
 
