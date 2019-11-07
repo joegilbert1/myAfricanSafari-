@@ -7,8 +7,6 @@ import "tfconfig" // this is the wiring of the signal from tfconfig
 // LIST - ALLOWED ANIMALS 
 // -----------------------
 allowed_animals = [
-    "elephant",
-    "rhinoceros",
     "buffalo",
     "lion",
     "leopard",
@@ -24,5 +22,5 @@ print("The animal of the run is:", tfconfig.variables.animals.default)
 // ----------
 main = rule { 
     (all tfconfig.variables.animals.default as nameoftheanimal { nameoftheanimal in allowed_animals })
-    // take all the variables defaul and call it "nameoftheanimal" and then do a for/if statement, if it's in this list return true/false
+    // take all the variables default and call it "nameoftheanimal" and then do a for/if statement, if it's in this list return true/false
 }
