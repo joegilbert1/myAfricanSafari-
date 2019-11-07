@@ -6,9 +6,9 @@ variable "animals" {
     default = [
       "elephant",
       "rhinoceros",
-      "buffalo",
-      "lion",
-      "leopard",
+      #"buffalo",
+      #"lion",
+      #"leopard",
       #"zebra",
       #"giraffe",
       #"cheetah",
