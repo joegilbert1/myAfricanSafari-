@@ -40,8 +40,12 @@ output "animal_name" { //The full output after an execution is an output
 
 
 
-module "test" {
-  source  = "andresvia/test/autodesk"
-  version = "0.0.0"
+
+
+module "datadog-integration" {
+  source  = "alvin-huang/datadog-integration/aws"
+  version = "1.1.0"
+  external_id = "12345"
 }
+
 
