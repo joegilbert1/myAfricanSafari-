@@ -7,11 +7,11 @@ import "tfconfig" // this is the wiring of the signal from tfconfig
 // LIST - ALLOWED ANIMALS 
 // -----------------------
 allowed_animals = [
+    "elephant",
+    "rhinoceros",
     "buffalo",
     "lion",
     "leopard",
-    "elephant",
-    "rhinoceros",
 ]
 
 // --------------
