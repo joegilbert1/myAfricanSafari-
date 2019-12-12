@@ -38,8 +38,10 @@ output "animal_name" { //The full output after an execution is an output
 
 
 
-module "datadog-aws-integration" {
-  source  = "mockingbirdconsulting/datadog-aws-integration/aws"
-  version = "0.0.7"
-  # insert the 4 required variables here
+
+
+module "test" {
+  source  = "andresvia/test/autodesk"
+  version = "0.0.0"
 }
+
