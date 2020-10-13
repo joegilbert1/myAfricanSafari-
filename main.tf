@@ -1,5 +1,5 @@
 // --------------------------
-// TERRAFORM INPUT VARIABLES
+// TERRAFORM INPUT VARIABLES Does
 // --------------------------
 variable "animals" {
     type    = "list"
