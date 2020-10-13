@@ -1,5 +1,5 @@
 // --------------------------
-// TERRAFORM INPUT VARIABLES Does
+// TERRAFORM INPUT VARIABLES yoooooooooo
 // --------------------------
 variable "animals" {
     type    = "list"
@@ -37,7 +37,3 @@ output "animal_name" { //The full output after an execution is an output
 }
 
 // hi
-
-
-
-
